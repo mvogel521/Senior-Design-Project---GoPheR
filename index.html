@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+        <script src="register.js" defer></script>
+        <style>
+            body{
+                background-image:  url('golfImage4.jpg');
+                background-repeat: no-repeat;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>GoPheR: Golf Putting Robot</h1>
+        
+        <div class="row">  
+            <div class="column">
+            
+            <img src="uarizonaLogo.jpg"  alt="UA Logo" width="220" height="95">
+            
+            </div>
+
+            <div class="column">
+
+            <img src="raytheonLogo.png" alt="Raytheon Logo" width="230" height="100">
+            </div>
+
+            <div class="column">
+           
+            <img src="gopher.jpg" alt="Gopher" width="220" height="100">
+           
+            </div>
+        </div>
+
+        <div class="slidecontainer">
+            <input type="range" min="0" max ="360" class="slider" id="angleChoice">
+            <p><u>Angle Value</u>: <span id="angleValue"></span></p>
+
+            <input type="range" min="0" max="50" class="slider" id="speedChoice">
+            <p><u>Speed Value</u>: <span id="speedValue"></span></p>
+        </div>
+        <img src="graph.png" alt="graph of shot">
+        <p></p>
+        <input type="button" class="button" value="Previous">
+        <input type="button" class="button" value="Submit">
+
+    </body>
+</html>
